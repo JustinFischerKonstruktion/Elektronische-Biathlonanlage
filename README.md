@@ -5,16 +5,46 @@ Die Automatisierung der Anlage erfolgt mithilfe von Endschaltern und einem 12V D
 
 
 Die 3D-gedruckten Komponenten werden zerstörungsfrei an den bestehenden Anlagen angebracht. Getestete Anlagen: Rika und Hora
+Link zu den 3D-Modellen inkl. Druckeinstellungen (Makerworld) (STEP und STL Dateien findet ihr hier)
+
+Gesamte Anlage:
 
 Motorhalter:
+
 Endschalterhalter:
+
 Platinenhalter:
 
+Zur einhaltung der Schießstandrichtlinien wurde ein Blech an dem Motorhalter angebracht. Dieses wurde bei Blexon bestellt.
+
+STEP-Datei Blech: 
+
+Blexon Link:
+
+Zur Verkablung der Anlage wurde eine eigens geplanten Platine angefertigt. Hier die Schaltlogik:
+
+(Schaltlogik)
+
+Fertige Platine bestellen: (Link zu JLCPCB)
+
+Hier die Liste der Zukaufteile:
+
+Platinengehäuse:
+Motor:
+Stromkabel:
+DC-DC Wandler:
+JST-Secker:
+Einschmelzgewinde:
+Schrauben:
+
+Kabelschutz:
+Kabel zur Verkabelung:
 
 
-Innerhalb dieses Netzwerkes werden auch Befehle an die Anlagen zur Steuerung gesendet.
 
-(Bild Aufbau Netzwerk)
+
+<img width="945" height="831" alt="Netzwerkaufbau" src="https://github.com/user-attachments/assets/8d163abd-0a4f-481d-bdbc-63dafceb2500" />
+
 
 Das Netzwerk besteht aus einem Master un bis zu 20 Slaves (Einschränkung durch ESP-NOW Netzwerk). Die Anlagen sind die Slaves, der MAster ist ein eigenständiges Gerät. Intern werden Variablen versendet für die verschiedenen Befehle und Daten:
 hits = Treffer
