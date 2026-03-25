@@ -44,6 +44,7 @@ Kabel zur Verkabelung:
 
 
 <img width="945" height="831" alt="Netzwerkaufbau" src="https://github.com/user-attachments/assets/8d163abd-0a4f-481d-bdbc-63dafceb2500" />
+Bild erstellt mit Inkscape
 
 
 Das Netzwerk besteht aus einem Master un bis zu 20 Slaves (Einschränkung durch ESP-NOW Netzwerk). Die Anlagen sind die Slaves, der MAster ist ein eigenständiges Gerät. Intern werden Variablen versendet für die verschiedenen Befehle und Daten:
