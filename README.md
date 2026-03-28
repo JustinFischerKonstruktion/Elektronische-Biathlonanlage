@@ -25,34 +25,75 @@ Zur Verkablung der Anlage wurde eine eigens geplanten Platine angefertigt. Hier 
 
 <img width="1073" height="567" alt="Verkabelung" src="https://github.com/user-attachments/assets/d1e27411-412c-41c5-96f0-8fc841993d70" />
 
-Überblick der Verkabelung:
+**Überblick der Verkabelung:**
 
 Alle Endschalter sind beim COM Anschluss mit Ground verbunden
 Das Relaismodul wird mit 5V betrieben und verbindet den Motor über den Normaly Open (NO) Anschluss mit +12V
 Der Informationsanschluss des Relaismoduls wird mit Pin 25 des ESP32 verbunden.
 Der Endschalter beim Motor wird über den NO Anschluss mit Pin 16 des ESP32 verbunden.
 
-Die Endschalter der Klappen werden ber die NO Anschlüsse an folgende Pins angeschlossen:
-Klappe 1: Pin 23
-Klappe 2: Pin 5
-Klappe 3: 26
-Klappe 4: 18
-Klappe 5: 19
+Die Endschalter der Klappen werden ber die NO Anschlüsse an folgende Pins angeschlossen:  
+Klappe 1: Pin 23  
+Klappe 2: Pin 5  
+Klappe 3: 26  
+Klappe 4: 18  
+Klappe 5: 19  
 
 Fertige Platine bestellen: (Link zu JLCPCB)
 
-Hier die Liste der Zukaufteile:
+Der Master hat die folgenden Anbauteile:  
+Real time clock:  
+SCL an Pin 22  
+SDA an Pin 21  
 
-Platinengehäuse:
-Motor:
-Stromkabel:
-DC-DC Wandler:
-JST-Secker:
-Einschmelzgewinde:
-Schrauben:
+JDY-31 Bluetooth-serielles Modul:  
+RX an Pin 16  
+TX an Pin 17
 
-Kabelschutz:
-Kabel zur Verkabelung:
+**Hier die Stückliste für eine Anlage:**
+
+| Bezeichnung | Stückzahl pro Anlage |
+| :--- | :---: |
+|**3D-Gedruckte Teile**|
+| Endschalterhalter (2 Varianten) | 5 |
+| Motorgehäuse | 1 |
+| Scheibe | 1 |
+| Gehäusehalterungen | 1 |
+| Gehäusehalterungen für außerhalb der Anlage (optional) | (1) |
+|**Zukaufteile**|
+| Edelstahlbleche | 1 |
+| ESP32 D1 Mini | 1 |
+| Step Down Converter | 1 |
+| 12V DC Motor | 1 |
+| Platine (optional) | (1) |
+| Gehäuse für Platine | (1) |
+| Endschalter für Motor | 5 |
+| Endschalter für Klappen | 1 |
+| Kabel (Ausgang Stromversorgung) | 1 |
+| Kugellager | 1 |
+| Schrauben M3x10 | 8 |
+| Schrauben M5x10 | 2 |
+| Einschmelzmutter M3 | 4 |
+| Schrauben zur Befestigung der Platine | 4 |
+| Wasserdichte Kabeldurchführungen | 8 |
+| Radialwellendichtring (optional) | 1 |
+
+**Stückliste des Masters:**
+| Bezeichnung | Stückzahl pro Anlage |
+| :--- | :---: |
+| ESP32 D1 Mini | 1 |
+| Bluetooth Modul | 1 |
+| Real time Clock Modul | 1 |
+| Gehäuse für ESP32 | (1) |
+| Lötplatine | (1) |
+
+
+Sonstige Zukaufteile:  
+Kabel:  
+Verteilerdosen:  
+Solarmodul inkl. Akku:  
+12V-Netzteil für Betrieb ohne Solar:  
+DC-Backup Schaltmodul für den Betrieb von Solar+Netzteil:  
 
 
 
