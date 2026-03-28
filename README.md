@@ -23,7 +23,21 @@ Blexon Link:
 
 Zur Verkablung der Anlage wurde eine eigens geplanten Platine angefertigt. Hier die Schaltlogik:
 
-(Schaltlogik)
+<img width="1073" height="567" alt="Verkabelung" src="https://github.com/user-attachments/assets/d1e27411-412c-41c5-96f0-8fc841993d70" />
+
+Überblick der Verkabelung:
+
+Alle Endschalter sind beim COM Anschluss mit Ground verbunden
+Das Relaismodul wird mit 5V betrieben und verbindet den Motor über den Normaly Open (NO) Anschluss mit +12V
+Der Informationsanschluss des Relaismoduls wird mit Pin 25 des ESP32 verbunden.
+Der Endschalter beim Motor wird über den NO Anschluss mit Pin 16 des ESP32 verbunden.
+
+Die Endschalter der Klappen werden ber die NO Anschlüsse an folgende Pins angeschlossen:
+Klappe 1: Pin 23
+Klappe 2: Pin 5
+Klappe 3: 26
+Klappe 4: 18
+Klappe 5: 19
 
 Fertige Platine bestellen: (Link zu JLCPCB)
 
