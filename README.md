@@ -5,7 +5,7 @@ Die Automatisierung der Anlage erfolgt mithilfe von Endschaltern und einem 12V D
 
 
 Die 3D-gedruckten Komponenten werden zerstörungsfrei an den bestehenden Anlagen angebracht. Getestete Anlagen: Rika und Hora
-Link zu den 3D-Modellen inkl. Druckeinstellungen (Makerworld) (STEP und STL Dateien findet ihr hier)
+Link zu den 3D-Modellen inkl. Druckeinstellungen (Makerworld) (STEP-Dateien findet ihr hier)
 
 Gesamte Anlage:
 
