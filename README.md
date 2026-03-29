@@ -4,9 +4,10 @@ Das Projekt "Elektronische Biathlonanlage" ist ein Umbau für Luftgewehr Biathlo
 Die Automatisierung der Anlage erfolgt mithilfe von Endschaltern und einem 12V DC motor, gesteuert von einem ESP32-D1mini auf einer eigens gestalteten Platine. Hier werden dei Endschalter so verkabelt, dass die Scheibenposition im Programm übereinstimmt also Scheibe 1-5.
 
 
-Die 3D-gedruckten Komponenten werden zerstörungsfrei an den bestehenden Anlagen angebracht. Getestete Anlagen: Rika und Hora
-Link zu den 3D-Modellen inkl. Druckeinstellungen (Makerworld) (STEP-Dateien findet ihr hier)
-
+Die 3D-gedruckten Komponenten werden zerstörungsfrei an den bestehenden Anlagen angebracht.  
+Getestete Anlagen: Rika und Hora  
+Link zu den 3D-Modellen inkl. Druckeinstellungen (Makerworld):   
+(STEP-Dateien findet ihr hier auf Github)  
 Gesamte Anlage:
 
 Motorhalter:
@@ -36,7 +37,7 @@ Das Relaismodul wird mit 5V betrieben und verbindet den Motor über den Normaly 
 Der Informationsanschluss des Relaismoduls wird mit Pin 25 des ESP32 verbunden.
 Der Endschalter beim Motor wird über den NO Anschluss mit Pin 16 des ESP32 verbunden.
 
-Die Endschalter der Klappen werden ber die NO Anschlüsse an folgende Pins angeschlossen:  
+Die Endschalter der Klappen werden über die NO Anschlüsse an folgende Pins angeschlossen:  
 Klappe 1: Pin 23  
 Klappe 2: Pin 5  
 Klappe 3: 26  
