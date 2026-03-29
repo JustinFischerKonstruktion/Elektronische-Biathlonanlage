@@ -1,13 +1,14 @@
 # Elektronische-Biathlonanlage
 Das Projekt "Elektronische Biathlonanlage" ist ein Umbau für Luftgewehr Biathlonanlagen, welcher dafür sorgt, dass die Scheiben nach 5 Treffern oder nach einer eingestellten Zeit ohne Treffer "gezogen" werden. Zur Datenerfassung werden die einzelnen Treffer mit der Position innerhalb eines ESP-NOW Netzwerkes versendet. 
 
-Die Automatisierung der Anlage erfolgt mithilfe von Endschaltern und einem 12V DC motor, gesteuert von einem ESP32-D1mini auf einer eigens gestalteten Platine. Hier werden dei Endschalter so verkabelt, dass die Scheibenposition im Programm übereinstimmt also Scheibe 1-5.
+Die Automatisierung der Anlage erfolgt mithilfe von Endschaltern und einem 12V DC motor, gesteuert von einem ESP32-D1mini auf einer eigens gestalteten Platine. Hier werden die Endschalter so verkabelt, dass die Scheibenposition im Programm übereinstimmt also Scheibe 1-5.
 
 
 Die 3D-gedruckten Komponenten werden zerstörungsfrei an den bestehenden Anlagen angebracht.  
 Getestete Anlagen: Rika und Hora  
 Link zu den 3D-Modellen inkl. Druckeinstellungen (Makerworld):   
 (STEP-Dateien findet ihr hier auf Github)  
+
 Gesamte Anlage:
 
 Motorhalter:
@@ -16,13 +17,13 @@ Endschalterhalter:
 
 Platinenhalter:
 
-Zur einhaltung der Schießstandrichtlinien wurde ein Blech an dem Motorhalter angebracht. Dieses wurde bei Blexon bestellt.
+Zur Einhaltung der Schießstandrichtlinien wurde ein Blech an dem Motorhalter angebracht. Dieses wurde bei Blexon bestellt.
 
-STEP-Datei Blech: 
+STEP-Datei Blech findet ihr hier bei Github. 
 
 Blexon Link:
 
-Zur Verkablung der Anlage wurde eine eigens geplanten Platine angefertigt. Hier die Schaltlogik:
+Zur Verkablung der Anlage wurde eine selbst geplanten Platine angefertigt. Hier die Schaltlogik:
 
 <p align="center">
   <img width="1073" height="567" alt="Verkabelung" src="https://github.com/user-attachments/assets/d1e27411-412c-41c5-96f0-8fc841993d70" />
@@ -33,8 +34,8 @@ Zur Verkablung der Anlage wurde eine eigens geplanten Platine angefertigt. Hier 
 **Überblick der Verkabelung:**
 
 Alle Endschalter sind beim COM Anschluss mit Ground verbunden
-Das Relaismodul wird mit 5V betrieben und verbindet den Motor über den Normaly Open (NO) Anschluss mit +12V
-Der Informationsanschluss des Relaismoduls wird mit Pin 25 des ESP32 verbunden.
+Das Relaismodul wird mit 5V betrieben und verbindet den Motor über den Normaly Open (NO) Anschluss mit +12V.
+Der Informationsanschluss des Relaismoduls wird mit Pin 25 des ESP32 verbunden.  
 Der Endschalter beim Motor wird über den NO Anschluss mit Pin 16 des ESP32 verbunden.
 
 Die Endschalter der Klappen werden über die NO Anschlüsse an folgende Pins angeschlossen:  
@@ -112,6 +113,32 @@ uint8_t receiverAddress[]: Die Mac Adresse eures Masters
 
 Mit der Variable zeit könnt ihr die Zeit einstellen die fest bei der Anlage hinterlegt ist. Bei unseren Anlagen haben wir für die Liegend Anlagen standardmäßig 10 Sekunden (zeit=10000). Für unsere Stehend Anlagen sind es 20 Sekunden (zeit=20000). Die Angabe ist in Millisekunden (Drei Nullen hinzufügen).  
 
+**Handy App**  
+
+<p align="center">
+  <img width="2400" height="1080" alt="Screenshot_20260329-162817 MIT AI2 Companion" src="https://github.com/user-attachments/assets/47ca7d34-4326-413d-babb-7705d5df84e0" />
+  <br>
+  <em style="color: grey;">Abbildung 2: Handy App Startseite</em>
+</p>  
+
+Auf der Startseite der App könnt ihr Links oben die Seiten Wechseln. Links neben der Mitte ist ein button mit dem man alle verfügbaren Bluetooth Geräte abfragen kann, wählt das richtige aus der Liste aus und ihr werdet verbunden. Danach werden euch die Treffer der Anlagen angezeigt und die Buttons funktionieren. Mit den Schiebereglern könnt ihr den Modus wechseln mit den Reset Knöpfen löst ihr den Ziehvorgang aus. Die Resetknöpfe und die Modusschalter gibt es oben für alle Anlagen und für jede Anlage einzeln.  
+
+<p align="center">
+  <img width="2400" height="1080" alt="Screenshot_20260329-162823 MIT AI2 Companion" src="https://github.com/user-attachments/assets/97cacae5-d696-4696-84ea-24b96fb4d09d" />
+  <br>
+  <em style="color: grey;">Abbildung 3: Handy App Einstellungsseite</em>
+</p>  
+
+Auf Der Einstellungsseite könnt ihr eigene Zeiten für die Modi eingeben und mit senden an den Master weitergeben.  
+
+<p align="center">
+  <img width="2400" height="1080" alt="Screenshot_20260329-180537" src="https://github.com/user-attachments/assets/f69861b0-ebb7-42f9-a03a-ae8f918f8027" />
+  <br>
+  <em style="color: grey;">Abbildung 4: Handy App Ergebnisseite</em>
+</p>  
+Auf der Ergebnisseite könnt ihr eine Liste der letzten Ergebnisse abfragen. Diese Funktion ist aufgrund der begrenzten Leistung von Bluetooth nicht immer 100% zuverlässig, außerdem benötigt es Zeit.  
+
+  
 ## Netzwerk
 <p align="center">
   <img width="945" height="831" alt="Netzwerkaufbau" src="https://github.com/user-attachments/assets/8d163abd-0a4f-481d-bdbc-63dafceb2500" />
