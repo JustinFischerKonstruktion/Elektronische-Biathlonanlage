@@ -1,29 +1,28 @@
-# Elektronische-Biathlonanlage
-Das Projekt "Elektronische Biathlonanlage" ist ein Umbau für Luftgewehr Biathlonanlagen, welcher dafür sorgt, dass die Scheiben nach 5 Treffern oder nach einer eingestellten Zeit ohne Treffer "gezogen" werden. Zur Datenerfassung werden die einzelnen Treffer mit der Position innerhalb eines ESP-NOW Netzwerkes versendet. 
+# Elektronische Biathlonanlage
 
-Die Automatisierung der Anlage erfolgt mithilfe von Endschaltern und einem 12V DC motor, gesteuert von einem ESP32-D1mini auf einer eigens gestalteten Platine. Hier werden die Endschalter so verkabelt, dass die Scheibenposition im Programm übereinstimmt also Scheibe 1-5.
+Das Projekt **"Elektronische Biathlonanlage"** ist ein Umbau für Luftgewehr-Biathlonanlagen. Dieser sorgt dafür, dass die Scheiben nach 5 Treffern oder nach einer eingestellten Zeit ohne Treffer automatisch "gezogen" werden. Zur Datenerfassung werden die einzelnen Treffer zusammen mit der Position innerhalb eines **ESP-NOW Netzwerkes** versendet. 
 
+Die Automatisierung der Anlage erfolgt mithilfe von Endschaltern und einem **12V DC Motor**, gesteuert von einem **ESP32-D1 mini** auf einer eigens gestalteten Platine. Hier werden die Endschalter so verkabelt, dass die Scheibenposition im Programm (Scheibe 1-5) mit der mechanischen Position übereinstimmt.
 
 Die 3D-gedruckten Komponenten werden zerstörungsfrei an den bestehenden Anlagen angebracht.  
-Getestete Anlagen: Rika und Hora  
-Link zu den 3D-Modellen inkl. Druckeinstellungen (Makerworld):   
-(STEP-Dateien findet ihr hier auf Github)  
+**Getestete Anlagen:** Rika und Hora  
+**Link zu den 3D-Modellen inkl. Druckeinstellungen (Makerworld):**  
+*(STEP-Dateien findet ihr hier auf GitHub)*
 
-Gesamte Anlage:
+*   Gesamte Anlage:
+*   Motorhalter:
+*   Endschalterhalter:
+*   Platinenhalter:
 
-Motorhalter:
+Zur Einhaltung der Schießstandrichtlinien wurde ein Blech an dem Motorhalter angebracht. Dieses wurde bei Blexon bestellt. Die entsprechende **STEP-Datei des Blechs** findet ihr ebenfalls hier bei GitHub. 
 
-Endschalterhalter:
+**Blexon Link:**
 
-Platinenhalter:
+---
 
-Zur Einhaltung der Schießstandrichtlinien wurde ein Blech an dem Motorhalter angebracht. Dieses wurde bei Blexon bestellt.
+## Hardware & Verkabelung
 
-STEP-Datei Blech findet ihr hier bei Github. 
-
-Blexon Link:
-
-Zur Verkablung der Anlage wurde eine selbst geplanten Platine angefertigt. Hier die Schaltlogik:
+Zur Verkabelung der Anlage wurde eine selbst geplante Platine angefertigt. 
 
 <p align="center">
   <img width="1073" height="567" alt="Verkabelung" src="https://github.com/user-attachments/assets/d1e27411-412c-41c5-96f0-8fc841993d70" />
@@ -31,42 +30,51 @@ Zur Verkablung der Anlage wurde eine selbst geplanten Platine angefertigt. Hier 
   <em style="color: grey;">Abbildung 1: Schaltlogik (erstellt mit Inkscape)</em>
 </p>
 
-**Überblick der Verkabelung:**
+### Überblick der Verkabelung:
 
-Alle Endschalter sind beim COM Anschluss mit Ground verbunden
-Das Relaismodul wird mit 5V betrieben und verbindet den Motor über den Normaly Open (NO) Anschluss mit +12V.
-Der Informationsanschluss des Relaismoduls wird mit Pin 25 des ESP32 verbunden.  
-Der Endschalter beim Motor wird über den NO Anschluss mit Pin 16 des ESP32 verbunden.
+*   Alle Endschalter sind beim **COM Anschluss** mit Ground (GND) verbunden.
+*   Das Relaismodul wird mit **5V** betrieben und verbindet den Motor über den **Normally Open (NO)** Anschluss mit +12V.
+*   Der Informationsanschluss des Relaismoduls wird mit **Pin 25** des ESP32 verbunden. 
+*   Der Endschalter beim Motor wird über den **NO Anschluss** mit **Pin 16** des ESP32 verbunden.
 
-Die Endschalter der Klappen werden über die NO Anschlüsse an folgende Pins angeschlossen:  
-Klappe 1: Pin 23  
-Klappe 2: Pin 5  
-Klappe 3: 26  
-Klappe 4: 18  
-Klappe 5: 19  
+Die Endschalter der Klappen werden über die **NO Anschlüsse** an folgende Pins angeschlossen:  
+*   Klappe 1: **Pin 23**  
+*   Klappe 2: **Pin 5**  
+*   Klappe 3: **Pin 26**  
+*   Klappe 4: **Pin 18**  
+*   Klappe 5: **Pin 19**  
 
-Fertige Platine bestellen: (Link zu JLCPCB)
+**Fertige Platine bestellen:** (Link zu JLCPCB)
 
-Der Master hat die folgenden Anbauteile:  
-Real time clock:  
-SCL an Pin 22  
-SDA an Pin 21  
+---
 
-JDY-31 Bluetooth-serielles Modul:  
-RX an Pin 16  
-TX an Pin 17
+### Der Master
 
-**Hier die Stückliste für eine Anlage:**
+Der Master verfügt über folgende Anbauteile:
+
+**Real time clock (RTC):**  
+*   SCL an **Pin 22**  
+*   SDA an **Pin 21**  
+
+**JDY-31 Bluetooth-serielles Modul:**  
+*   RX an **Pin 16**  
+*   TX an **Pin 17**
+
+---
+
+### Stücklisten
+
+#### Stückliste für eine Anlage:
 
 | Bezeichnung | Stückzahl pro Anlage |
 | :--- | :---: |
-|**3D-Gedruckte Teile**|
+| **3D-Gedruckte Teile** | |
 | Endschalterhalter (2 Varianten) | 5 |
 | Motorgehäuse | 1 |
 | Scheibe | 1 |
 | Gehäusehalterungen | 1 |
 | Gehäusehalterungen für außerhalb der Anlage (optional) | (1) |
-|**Zukaufteile**|
+| **Zukaufteile** | |
 | Edelstahlbleche | 1 |
 | ESP32 D1 Mini | 1 |
 | Step Down Converter | 1 |
@@ -84,8 +92,9 @@ TX an Pin 17
 | Wasserdichte Kabeldurchführungen | 8 |
 | Radialwellendichtring (optional) | 1 |
 
-**Stückliste des Masters:**
-| Bezeichnung | Stückzahl pro Anlage |
+#### Stückliste des Masters:
+
+| Bezeichnung | Stückzahl |
 | :--- | :---: |
 | ESP32 D1 Mini | 1 |
 | Bluetooth Modul | 1 |
@@ -93,75 +102,77 @@ TX an Pin 17
 | Gehäuse für ESP32 | (1) |
 | Lötplatine | (1) |
 
+**Sonstige Zukaufteile:**  
+*   Kabel:  
+*   Verteilerdosen:  
+*   Solarmodul inkl. Akku:  
+*   12V-Netzteil für Betrieb ohne Solar:  
+*   DC-Backup Schaltmodul (Solar + Netzteil):  
 
-Sonstige Zukaufteile:  
-Kabel:  
-Verteilerdosen:  
-Solarmodul inkl. Akku:  
-12V-Netzteil für Betrieb ohne Solar:  
-DC-Backup Schaltmodul für den Betrieb von Solar+Netzteil:  
-
+---
 
 ## Software
-Die Software der Anlagen sowie des Masters wurden mit der Arduinio IDE geschrieben. Ihr findet die Ino Dateien zum Download im Ordner Software.
-Bei Inbetriebname müsst ihr die MAC-Adresse eures Masters herausfinden und euch aufschreiben.  
-Bei den Anlagen müsst ihr folgende 3 Variablen anpassen, alle drei findet ihr ganz oben im Code.    
 
-Anlage: Die Nummer eurer Anlage, beachtet hierbei dass es von oben nach unten und dann von links nach rechts geht. Das heißt Stehend Anlage links ist Nummer 1; die Liegend Anlage ist Nummer 2, die zweite Stehend Anlage von links ist 3 usw.  
+Die Software der Anlagen sowie des Masters wurde mit der **Arduino IDE** geschrieben. Ihr findet die `.ino` Dateien zum Download im Ordner `Software`.
 
-uint8_t receiverAddress[]: Die Mac Adresse eures Masters  
+Bei Inbetriebnahme müsst ihr die MAC-Adresse eures Masters herausfinden und notieren. In den Skripten der Anlagen müssen folgende drei Variablen ganz oben im Code angepasst werden:
 
-Mit der Variable zeit könnt ihr die Zeit einstellen die fest bei der Anlage hinterlegt ist. Bei unseren Anlagen haben wir für die Liegend Anlagen standardmäßig 10 Sekunden (zeit=10000). Für unsere Stehend Anlagen sind es 20 Sekunden (zeit=20000). Die Angabe ist in Millisekunden (Drei Nullen hinzufügen).  
+1.  **Anlage:** Die Nummer eurer Anlage (von oben nach unten, dann von links nach rechts). Beispiel: Stehende Anlage links = Nr. 1; liegende Anlage = Nr. 2; zweite stehende Anlage von links = Nr. 3 usw.
+2.  **uint8_t receiverAddress[]:** Die MAC-Adresse eures Masters.
+3.  **Variable `zeit`:** Hier wird die Zeit eingestellt, nach der die Anlage automatisch zieht. Standardmäßig nutzen wir für liegende Anlagen 10 Sekunden (`zeit=10000`) und für stehende Anlagen 20 Sekunden (`zeit=20000`). Die Angabe erfolgt in Millisekunden.
 
-**Handy App**  
+### Handy App
 
 <p align="center">
-  <img width="2400" height="1080" alt="Screenshot_20260329-162817 MIT AI2 Companion" src="https://github.com/user-attachments/assets/47ca7d34-4326-413d-babb-7705d5df84e0" />
+  <img width="800" alt="App Startseite" src="https://github.com/user-attachments/assets/47ca7d34-4326-413d-babb-7705d5df84e0" />
   <br>
   <em style="color: grey;">Abbildung 2: Handy App Startseite</em>
-</p>  
-
-Auf der Startseite der App könnt ihr Links oben die Seiten Wechseln. Links neben der Mitte ist ein button mit dem man alle verfügbaren Bluetooth Geräte abfragen kann, wählt das richtige aus der Liste aus und ihr werdet verbunden. Danach werden euch die Treffer der Anlagen angezeigt und die Buttons funktionieren. Mit den Schiebereglern könnt ihr den Modus wechseln mit den Reset Knöpfen löst ihr den Ziehvorgang aus. Die Resetknöpfe und die Modusschalter gibt es oben für alle Anlagen und für jede Anlage einzeln.  
-
-<p align="center">
-  <img width="2400" height="1080" alt="Screenshot_20260329-162823 MIT AI2 Companion" src="https://github.com/user-attachments/assets/97cacae5-d696-4696-84ea-24b96fb4d09d" />
-  <br>
-  <em style="color: grey;">Abbildung 3: Handy App Einstellungsseite</em>
-</p>  
-
-Auf Der Einstellungsseite könnt ihr eigene Zeiten für die Modi eingeben und mit senden an den Master weitergeben.  
-
-<p align="center">
-  <img width="2400" height="1080" alt="Screenshot_20260329-180537" src="https://github.com/user-attachments/assets/f69861b0-ebb7-42f9-a03a-ae8f918f8027" />
-  <br>
-  <em style="color: grey;">Abbildung 4: Handy App Ergebnisseite</em>
-</p>  
-Auf der Ergebnisseite könnt ihr eine Liste der letzten Ergebnisse abfragen. Diese Funktion ist aufgrund der begrenzten Leistung von Bluetooth nicht immer 100% zuverlässig, außerdem benötigt es Zeit.  
-
-  
-## Netzwerk
-<p align="center">
-  <img width="945" height="831" alt="Netzwerkaufbau" src="https://github.com/user-attachments/assets/8d163abd-0a4f-481d-bdbc-63dafceb2500" />
-  <br>
-  <em style="color: grey;">Abbildung 2: Netzwerkaufbau (erstellt mit Inkscape)</em>
 </p>
 
-Das Netzwerk besteht aus einem Master und bis zu 20 Slaves (Einschränkung durch ESP-NOW Netzwerk). Die Anlagen sind die Slaves, der Master ist ein eigenständiges Gerät. Intern werden Variablen versendet für die verschiedenen Befehle und Daten:  
-hits = Treffer  
-Anlage = Die Nummer der Anlage  
-reset = 0-n Die Nummer der Anlage die "gezogen" werden soll, 0 steht für alle Anlagen.  
-target = 0-n Die Nummer der Anlage die in den Target Modus wechseln soll (Standardmäßig 20s), 0 steht für alle Anlagen.  
-normal = 0-n Die Nummer der Anlage die in den Magazin / normalen Modus wechseln soll (Standardmäßig 10s), 0 steht für alle Anlagen.  
-customtarget = Die eigene Zeiteinstellung für den Targetmodus in Sekunden  
-customnormal= Die eigene Zeiteinstellung für den Magazinmodus in Sekunden
+Auf der Startseite der App könnt ihr links oben die Seiten wechseln. Mit dem Button links neben der Mitte könnt ihr verfügbare Bluetooth-Geräte abfragen und euch verbinden. Danach werden euch die Treffer der Anlagen angezeigt. Mit den Schiebereglern wechselt ihr den Modus, mit den Reset-Knöpfen löst ihr den Ziehvorgang manuell aus (für alle Anlagen gleichzeitig oder einzeln).
 
-Das Netzwerk wurde von uns nur mit einem Master und 8 Slaves getestet und sind sehr zufrieden.
+<p align="center">
+  <img width="800" alt="App Einstellungen" src="https://github.com/user-attachments/assets/97cacae5-d696-4696-84ea-24b96fb4d09d" />
+  <br>
+  <em style="color: grey;">Abbildung 3: Handy App Einstellungsseite</em>
+</p>
 
-Der Master bietet die Möglichkeit sich mit einem Handy zu verbinden hier werden die Daten der Anlagen und die Befehle im Textformat gesendet und von der Android App verarbeitet. Diese wurde mit MIT App Inventor entworfen.
-Hier der Link zur App: 
+Auf der Einstellungsseite könnt ihr eigene Zeiten für die Modi eingeben und per Senden-Button an den Master übertragen.
 
+<p align="center">
+  <img width="800" alt="App Ergebnisse" src="https://github.com/user-attachments/assets/f69861b0-ebb7-42f9-a03a-ae8f918f8027" />
+  <br>
+  <em style="color: grey;">Abbildung 4: Handy App Ergebnisseite</em>
+</p>
+
+Hier könnt ihr eine Liste der letzten Ergebnisse abfragen. Da die Übertragung via Bluetooth Zeit benötigt, ist diese Funktion bei begrenzter Leistung nicht immer zu 100% zuverlässig.  
+
+**Link zur App:**
+
+---
+
+## Netzwerk
+
+<p align="center">
+  <img width="800" alt="Netzwerkaufbau" src="https://github.com/user-attachments/assets/8d163abd-0a4f-481d-bdbc-63dafceb2500" />
+  <br>
+  <em style="color: grey;">Abbildung 5: Netzwerkaufbau (erstellt mit Inkscape)</em>
+</p>
+
+Das Netzwerk besteht aus einem Master und bis zu 20 Slaves (bedingt durch die ESP-NOW Einschränkung). Die Anlagen fungieren als Slaves, der Master als eigenständige Zentrale. Folgende Variablen werden intern für Befehle und Daten genutzt:
+
+*   `hits`: Anzahl der Treffer  
+*   `Anlage`: Nummer der sendenden Anlage  
+*   `reset`: 0-n (Nummer der zu ziehenden Anlage; 0 = alle)  
+*   `target`: 0-n (Wechsel in den Target-Modus; 0 = alle)  
+*   `normal`: 0-n (Wechsel in den Magazin-Modus; 0 = alle)  
+*   `customtarget`: Eigene Zeiteinstellung für den Targetmodus (in Sekunden)  
+*   `customnormal`: Eigene Zeiteinstellung für den Magazinmodus (in Sekunden)
+
+Wir haben das Netzwerk erfolgreich mit einem Master und 8 Slaves getestet und sind sehr zufrieden. Der Master verbindet sich per Bluetooth mit dem Handy; Daten und Befehle werden im Textformat gesendet und von der Android App (erstellt mit **MIT App Inventor**) verarbeitet.
+
+---
 
 ## Referenzen
-Bilder und Videos der Anlage.
 
-
+*Hier folgen Bilder und Videos der Anlage.*
