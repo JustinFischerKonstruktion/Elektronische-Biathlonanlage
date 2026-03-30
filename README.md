@@ -108,8 +108,8 @@ Der Master verfügt über folgende Anbauteile:
 
 #### Stückliste des Masters:
 
-| Bezeichnung | Stückzahl |
-| :--- | :---: | 
+| Bezeichnung | Stückzahl | Link |
+| :--- | :---: | :--- |
 | ESP32 D1 Mini | 1 | [Amazon](https://www.amazon.de/AZDelivery-Bluetooth-Entwicklungsboard-Anschluss-kompatibel/dp/B0DHY5C3Q3/ref=sr_1_1_pp?__mk_de_DE=ÅMÅŽÕÑ&crid=3G27NZ7NFXGJA&dib=eyJ2IjoiMSJ9.fSPDNIu22e7D0m9a5o1wA5lt-69fzrOzSSVbpjepEo7NE6N-GI7q-aMGJPGA5-4RT4leLSNRjCEQzlV9Za3PcW-csD_PGM41K-H7Tz-Ijfe2TKqcQzuc5-hdEvgfumyhFzzk39CJi3T8j0VnBtao0r1axcT8jCYRd9_Q6RsGaSmAugo5oenjCcaT94MzEGL7d_QfhLijRroj1i-4aia8rtOEyGlhY2i8jQylf0_xV5suC4OfYcDTnZCUXsgoXn7OYk8WrPmoR9cE1aRhx2buSXOCyckIRECHaAwrrO_GDV4.ZxecHkuZATFtUk2H4oQdUl-2A3XOx3sczMAwzpoFosw&dib_tag=se&keywords=esp32%2Bd1%2Bmini&qid=1774862687&sprefix=esp32%2Bd1%2Bmini%2B%2Caps%2C105&sr=8-1&th=1)
 | Bluetooth Modul | 1 | [Amazon](https://www.amazon.de/dp/B0FFZ43YCC?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
 | Real time Clock Modul | 1 | [Amazon](https://www.amazon.de/WINGONEER-DS3231-AT24C32-Precision-Arduino/dp/B01H5NAFUY/ref=sr_1_9?__mk_de_DE=ÅMÅŽÕÑ&crid=2HPPZ6K5755G5&dib=eyJ2IjoiMSJ9.s0vhN-VkJrGlmMQSPCOU7o7Xg1J0LFOspirK2x3d4bzdkUYj6tomziq1BCi5bFN7JYnAaiHWBonPJIUrRnmgQb88jS7LYOj6N00jG1gtYw0dBViVN8Hf9XPuEBDRCDthW2smwgyT2ObKuiXfiEX4QXWSv3uDP2csYk5yIWbJnHFtLAPxOaTmpOOzDSPRvbJKkWxJQxXDlQJGCyPcL0-7nCjn94w1hTRX4AB-IoTDVvERxrjdTCFIsOnB_EEiMoiqmAqlDSMOdpdvg-D3HZ6EQINlctP07pFPCP5X0XZlnII.kBILRI0EZFuDpCngz_KItytw753qo77qMuSNZh_pVsU&dib_tag=se&keywords=real%2Btime%2Bclock&qid=1774863852&sprefix=real%2Btime%2Bclock%2Caps%2C120&sr=8-9&th=1)
