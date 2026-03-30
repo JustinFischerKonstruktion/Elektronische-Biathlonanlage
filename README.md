@@ -206,7 +206,7 @@ Wir haben das Netzwerk erfolgreich mit einem Master und 8 Slaves getestet und si
 Video das die alktuellen Probleme von Seilzuganlagen aufzeigt:  
 <p align="center">
   <a href="https://youtu.be/Kdan_EM31K0">
-    <img src="https://github.com/user-attachments/assets/f8575da7-089a-447b-b70b-edb5b22d0004" width="800" alt="Video Thumbnail">
+    <img src="https://github.com/user-attachments/assets/f8575da7-089a-447b-b70b-edb5b22d0004" width="400" alt="Video Thumbnail">
     <br>
     ▶️ <b>Video: Probleme der aktuellen Seilzuganlagen</b>
   </a>
