@@ -205,10 +205,10 @@ Wir haben das Netzwerk erfolgreich mit einem Master und 8 Slaves getestet und si
 
 Video das die alktuellen Probleme von Seilzuganlagen aufzeigt:  
 <p align="center">
-  <a href="[https://www.youtube.com/watch?v=DEINE_VIDEO_ID](https://youtu.be/Kdan_EM31K0 )">
-    <img width="800" alt="Thumbnail" src="https://github.com/user-attachments/assets/f8575da7-089a-447b-b70b-edb5b22d0004"/>
+  <a href="https://youtu.be/Kdan_EM31K0">
+    <img src="https://github.com/user-attachments/assets/f8575da7-089a-447b-b70b-edb5b22d0004" width="800" alt="Video Thumbnail">
     <br>
-    ▶️ <b>Video: Die Biathlonanlage in Action</b>
+    ▶️ <b>Video: Probleme der aktuellen Seilzuganlagen</b>
   </a>
 </p>
  
