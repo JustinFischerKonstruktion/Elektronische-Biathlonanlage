@@ -149,6 +149,9 @@ Bei Inbetriebnahme müsst ihr die MAC-Adresse eures Masters herausfinden und not
 
 ### Handy App
 
+Hier auf github findet ihr im Ordner Software die Biathlonapp sowohl als apk zum installieren auf Android Handys, als auch die aia datei zum öffnen in App Inventor.  
+App Inventor: https://appinventor.mit.edu  
+
 <p align="center">
   <img width="800" alt="App Startseite" src="https://github.com/user-attachments/assets/47ca7d34-4326-413d-babb-7705d5df84e0" />
   <br>
@@ -173,7 +176,6 @@ Auf der Einstellungsseite könnt ihr eigene Zeiten für die Modi eingeben und pe
 
 Hier könnt ihr eine Liste der letzten Ergebnisse abfragen. Da die Übertragung via Bluetooth Zeit benötigt, ist diese Funktion bei begrenzter Leistung nicht immer zu 100% zuverlässig.  
 
-**Link zur App:**
 
 ---
 
