@@ -7,7 +7,9 @@ Auch die Gefahr dass sich die Seile verknoten oder spannen, wodurch das Fallen d
 
 Der Schützenverein Wolfartsweiler (https://www.sv-wolfartsweiler.de) hat seit über einem Jahr 8 umgebaute Anlagen im Betrieb. Pro Anlage kostete uns der Umbau ca. 210€. Pro Anlage kann man mit ca. 2 Arbeitsstunden für die Installation rechnen, zusätzlich zu der Installation von Kabeln im Schießstand. Außerdem testet der Schützenverein aktuell einen Prototypen zur autonomen Laufzeiterfassung und Laufzeitauswertung.  
 
-Mit dem Wettbewerb NMH Makes Heroes (https://nmh-makes-heroes.nmh.de) unterstütze mich die Firma NMH (https://www.nmh.de) mit einer Fördersumme und technischer Beratung. Während der kurzen Wettbewerbszeit (ca. 6 Wochen) entstand aus einem Prototypen ein fertiges, einsatzfähiges System welches ich bei allen 8 Anlagen installieren konnte. Vielen Dank an dieser Stelle an NMH!
+Mit dem Wettbewerb NMH Makes Heroes (https://nmh-makes-heroes.nmh.de) unterstütze mich die Firma NMH (https://www.nmh.de) mit einer Fördersumme und technischer Beratung. Während der kurzen Wettbewerbszeit (ca. 6 Wochen) entstand aus einem Prototypen ein fertiges, einsatzfähiges System welches ich bei allen 8 Anlagen installieren konnte. Vielen Dank an dieser Stelle an NMH!  
+
+Wenn Sie mein Projekt interressiert und Sie sich für die Zukunft des Projektes interrisieren, können Sie sich gerne die Zukunftsvision anschauen, hier werden mögliche Weiterentwicklungen aufgezeigt. Wenn Sie mich unterstützen wollen, können Sie das gerne über das Github Sponsorprogramm machen.
 
 
 ## Hardware  
