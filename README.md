@@ -2,27 +2,40 @@
 
 Das Projekt **"Elektronische Biathlonanlage"** ist ein Umbau für Luftgewehr-Biathlonanlagen. Dieser sorgt dafür, dass die Scheiben nach 5 Treffern oder nach einer eingestellten Zeit ohne Treffer automatisch "gezogen" werden. Zur Datenerfassung werden die einzelnen Treffer zusammen mit der Position innerhalb eines **ESP-NOW Netzwerkes** versendet. 
 
-Die Automatisierung der Anlage erfolgt mithilfe von Endschaltern und einem **12V DC Motor**, gesteuert von einem **ESP32-D1 mini** auf einer eigens gestalteten Platine. Hier werden die Endschalter so verkabelt, dass die Scheibenposition im Programm (Scheibe 1-5) mit der mechanischen Position übereinstimmt.
+Die Automatisierung der Anlage erfolgt mithilfe von Endschaltern und einem **12V DC Motor**, gesteuert von einem **ESP32-D1 mini** auf einer eigens entworfenen Platine. Hier werden die Endschalter so verkabelt, dass die Scheibenposition im Programm (Scheibe 1-5) mit der mechanischen Position übereinstimmt.
 
 Die 3D-gedruckten Komponenten werden zerstörungsfrei an den bestehenden Anlagen angebracht.  
 **Getestete Anlagen:** Rika und Hora  
 **Link zu den 3D-Modellen inkl. Druckeinstellungen (Makerworld):**  
 *(STEP-Dateien findet ihr hier auf GitHub)*
 
+**Hora:**
+*   Gesamte Anlage:
+*   Motorhalter:
+*   Endschalterhalter:
+*   Halter:
+*   Halter mit Kabel:
+
+**Rika:**
 *   Gesamte Anlage:
 *   Motorhalter:
 *   Endschalterhalter:
 *   Platinenhalter:
 
-Zur Einhaltung der Schießstandrichtlinien wurde ein Blech an dem Motorhalter angebracht. Dieses wurde bei Blexon bestellt. Die entsprechende **STEP-Datei des Blechs** findet ihr ebenfalls hier bei GitHub. 
+**Zubehör für beide Typen:**
+*   Platinenhalter außen:
+*   Scheibe:
+*   Adapter Platine zu Gehäuse:
 
-**Blexon Link:**
+Zur Einhaltung der Schießstandrichtlinien wurde eine Verkleidung aus Blech an dem Motorhalter angebracht. Dieses wurde bei Blexon bestellt. Die entsprechende **STEP-Datei des Blechs** findet ihr ebenfalls hier bei GitHub. 
+
+**Blexon Link:** https://blexon.com
 
 ---
 
 ## Hardware & Verkabelung
 
-Zur Verkabelung der Anlage wurde eine selbst geplante Platine angefertigt. 
+Zur Verkabelung der Anlage wurde eine selbst entworfene Platine angefertigt. 
 
 <p align="center">
   <img width="1073" height="567" alt="Verkabelung" src="https://github.com/user-attachments/assets/d1e27411-412c-41c5-96f0-8fc841993d70" />
@@ -32,7 +45,7 @@ Zur Verkabelung der Anlage wurde eine selbst geplante Platine angefertigt.
 
 ### Überblick der Verkabelung:
 
-*   Alle Endschalter sind beim **COM Anschluss** mit Ground (GND) verbunden.
+*   Alle Endschalter sind über den **COM Anschluss** mit Ground (GND) verbunden.
 *   Das Relaismodul wird mit **5V** betrieben und verbindet den Motor über den **Normally Open (NO)** Anschluss mit +12V.
 *   Der Informationsanschluss des Relaismoduls wird mit **Pin 25** des ESP32 verbunden. 
 *   Der Endschalter beim Motor wird über den **NO Anschluss** mit **Pin 16** des ESP32 verbunden.
@@ -66,8 +79,8 @@ Der Master verfügt über folgende Anbauteile:
 
 #### Stückliste für eine Anlage:
 
-| Bezeichnung | Stückzahl pro Anlage |
-| :--- | :---: |
+| Bezeichnung | Stückzahl pro Anlage | Link |
+| :--- | :---: | :--- |
 | **3D-Gedruckte Teile** | |
 | Endschalterhalter (2 Varianten) | 5 |
 | Motorgehäuse | 1 |
@@ -76,38 +89,39 @@ Der Master verfügt über folgende Anbauteile:
 | Gehäusehalterungen für außerhalb der Anlage (optional) | (1) |
 | **Zukaufteile** | |
 | Edelstahlbleche | 1 |
-| ESP32 D1 Mini | 1 |
-| Step Down Converter | 1 |
-| 12V DC Motor | 1 |
-| Platine (optional) | (1) |
-| Gehäuse für Platine | (1) |
-| Endschalter für Motor | 5 |
-| Endschalter für Klappen | 1 |
-| Kabel (Ausgang Stromversorgung) | 1 |
-| Kugellager | 1 |
-| Schrauben M3x10 | 8 |
-| Schrauben M5x10 | 2 |
-| Einschmelzmutter M3 | 4 |
-| Schrauben zur Befestigung der Platine | 4 |
-| Wasserdichte Kabeldurchführungen | 8 |
-| Radialwellendichtring (optional) | 1 |
+| ESP32 D1 Mini | 1 | [Amazon](https://www.amazon.de/AZDelivery-Bluetooth-Entwicklungsboard-Anschluss-kompatibel/dp/B0DHY5C3Q3/ref=sr_1_1_pp?__mk_de_DE=ÅMÅŽÕÑ&crid=3G27NZ7NFXGJA&dib=eyJ2IjoiMSJ9.fSPDNIu22e7D0m9a5o1wA5lt-69fzrOzSSVbpjepEo7NE6N-GI7q-aMGJPGA5-4RT4leLSNRjCEQzlV9Za3PcW-csD_PGM41K-H7Tz-Ijfe2TKqcQzuc5-hdEvgfumyhFzzk39CJi3T8j0VnBtao0r1axcT8jCYRd9_Q6RsGaSmAugo5oenjCcaT94MzEGL7d_QfhLijRroj1i-4aia8rtOEyGlhY2i8jQylf0_xV5suC4OfYcDTnZCUXsgoXn7OYk8WrPmoR9cE1aRhx2buSXOCyckIRECHaAwrrO_GDV4.ZxecHkuZATFtUk2H4oQdUl-2A3XOx3sczMAwzpoFosw&dib_tag=se&keywords=esp32%2Bd1%2Bmini&qid=1774862687&sprefix=esp32%2Bd1%2Bmini%2B%2Caps%2C105&sr=8-1&th=1) |
+| Step Down Converter | 1 | [Amazon](https://www.amazon.de/dp/B0B92ZDK6T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)|
+| 12V DC Motor | 1 | [Amazon](https://www.amazon.de/dp/B0B92ZDK6T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)|
+| Platine (optional) | (1) | siehe unten|
+| Gehäuse für Platine | (1) | [Amazon](https://www.amazon.de/dp/B0747RGBFF?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)|
+| Endschalter für Motor | 5 | [Amazon](https://www.amazon.de/dp/B0DX27MVWB?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)|
+| Endschalter für Klappen | 1 | [Reichelt](https://www.reichelt.de/de/de/shop/produkt/snap-action-mikroschalter_1x_um_rollenhebel-191380)|
+| Kabel (Ausgang Stromversorgung) | 1 | [Amazon](https://www.amazon.de/dp/B07DPND6NG?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1)|
+| Kugellager | 1 | [Amazon](https://www.amazon.de/dp/B0CL4ZN6BV?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)|
+| Schrauben M3x8 | 8 | [Amazon](https://www.amazon.de/dp/B073ZY19VS?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_12&th=1)|
+| Schrauben M2x10 | 2 | [Amazon](https://www.amazon.de/dp/B015A3ISUA?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_14)|
+| Schrauben M5x10 | 2 | [Amazon](https://www.amazon.de/dp/B015A3ISUA?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_14)|
+| Selbstschneidende Schrauben | 4| [Amazon](https://www.reichelt.de/de/de/shop/produkt/snap-action-mikroschalter_1x_um_rollenhebel-191380)|
+| Einschmelzmutter M3 | 4 | [Amazon](https://www.amazon.de/dp/B0CRHMB248?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4)|
+| Wasserdichte Kabeldurchführungen | 8 | [Amazon](https://www.amazon.de/dp/B0CXPSG55G?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)|
+| Radialwellendichtring (optional) | 1 | [Amazon](https://www.amazon.de/dp/B0CXPSG55G?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)|
 
 #### Stückliste des Masters:
 
 | Bezeichnung | Stückzahl |
-| :--- | :---: |
-| ESP32 D1 Mini | 1 |
-| Bluetooth Modul | 1 |
-| Real time Clock Modul | 1 |
-| Gehäuse für ESP32 | (1) |
-| Lötplatine | (1) |
+| :--- | :---: | 
+| ESP32 D1 Mini | 1 | [Amazon](https://www.amazon.de/AZDelivery-Bluetooth-Entwicklungsboard-Anschluss-kompatibel/dp/B0DHY5C3Q3/ref=sr_1_1_pp?__mk_de_DE=ÅMÅŽÕÑ&crid=3G27NZ7NFXGJA&dib=eyJ2IjoiMSJ9.fSPDNIu22e7D0m9a5o1wA5lt-69fzrOzSSVbpjepEo7NE6N-GI7q-aMGJPGA5-4RT4leLSNRjCEQzlV9Za3PcW-csD_PGM41K-H7Tz-Ijfe2TKqcQzuc5-hdEvgfumyhFzzk39CJi3T8j0VnBtao0r1axcT8jCYRd9_Q6RsGaSmAugo5oenjCcaT94MzEGL7d_QfhLijRroj1i-4aia8rtOEyGlhY2i8jQylf0_xV5suC4OfYcDTnZCUXsgoXn7OYk8WrPmoR9cE1aRhx2buSXOCyckIRECHaAwrrO_GDV4.ZxecHkuZATFtUk2H4oQdUl-2A3XOx3sczMAwzpoFosw&dib_tag=se&keywords=esp32%2Bd1%2Bmini&qid=1774862687&sprefix=esp32%2Bd1%2Bmini%2B%2Caps%2C105&sr=8-1&th=1)
+| Bluetooth Modul | 1 | [Amazon](https://www.amazon.de/dp/B0FFZ43YCC?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
+| Real time Clock Modul | 1 | [Amazon](https://www.amazon.de/WINGONEER-DS3231-AT24C32-Precision-Arduino/dp/B01H5NAFUY/ref=sr_1_9?__mk_de_DE=ÅMÅŽÕÑ&crid=2HPPZ6K5755G5&dib=eyJ2IjoiMSJ9.s0vhN-VkJrGlmMQSPCOU7o7Xg1J0LFOspirK2x3d4bzdkUYj6tomziq1BCi5bFN7JYnAaiHWBonPJIUrRnmgQb88jS7LYOj6N00jG1gtYw0dBViVN8Hf9XPuEBDRCDthW2smwgyT2ObKuiXfiEX4QXWSv3uDP2csYk5yIWbJnHFtLAPxOaTmpOOzDSPRvbJKkWxJQxXDlQJGCyPcL0-7nCjn94w1hTRX4AB-IoTDVvERxrjdTCFIsOnB_EEiMoiqmAqlDSMOdpdvg-D3HZ6EQINlctP07pFPCP5X0XZlnII.kBILRI0EZFuDpCngz_KItytw753qo77qMuSNZh_pVsU&dib_tag=se&keywords=real%2Btime%2Bclock&qid=1774863852&sprefix=real%2Btime%2Bclock%2Caps%2C120&sr=8-9&th=1)
+| Gehäuse für ESP32 | (1) | [Amazon](https://www.amazon.de/dp/B0747RGBFF?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
+| Lötplatine | (1) | [Amazon](https://www.amazon.de/dp/B07DK2S1XG?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
 
 **Sonstige Zukaufteile:**  
-*   Kabel:  
-*   Verteilerdosen:  
-*   Solarmodul inkl. Akku:  
-*   12V-Netzteil für Betrieb ohne Solar:  
-*   DC-Backup Schaltmodul (Solar + Netzteil):  
+*   Kabel:  [Amazon](https://www.amazon.de/dp/B07DK2S1XG?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)|
+*   Verteilerdosen:  [Amazon](https://www.amazon.de/dp/B09D3XP1Z1?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3&th=1)|
+*   Solarmodul inkl. Akku:  [Amazon](https://www.amazon.de/dp/B09D3XP1Z1?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3&th=1)|
+*   12V-Netzteil für Betrieb ohne Solar:  [Amazon](https://www.amazon.de/dp/B07GFFG1BQ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5)|
+*   DC-Backup Schaltmodul (bei Betrieb mit Solar + Netzteil):  [Amazon](https://www.amazon.de/dp/B07B4D73K9?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)|
 
 ---
 
