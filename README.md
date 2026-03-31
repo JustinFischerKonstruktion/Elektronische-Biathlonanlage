@@ -69,7 +69,7 @@ Die Endschalter der Klappen werden über die **NO Anschlüsse** an folgende Pins
 *   Klappe 4: **Pin 18**  
 *   Klappe 5: **Pin 19**  
 
-**Fertige Platine bestellen:** (Link zu JLCPCB)
+**Meine Platine bei OSHWLab:** (Link zu OSHWLAB)
 
 ---
 
