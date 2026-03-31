@@ -129,11 +129,11 @@ Der Master verfügt über folgende Anbauteile:
 | Lötplatine | (1) | [Amazon](https://www.amazon.de/dp/B07DK2S1XG?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
 
 **Sonstige Zukaufteile:**  
-*   Kabel:  [Amazon](https://www.amazon.de/dp/B07DK2S1XG?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)|
-*   Verteilerdosen:  [Amazon](https://www.amazon.de/dp/B09D3XP1Z1?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3&th=1)|
-*   Solarmodul inkl. Akku:  [Amazon](https://www.amazon.de/dp/B09D3XP1Z1?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3&th=1)|
-*   12V-Netzteil für Betrieb ohne Solar:  [Amazon](https://www.amazon.de/dp/B07GFFG1BQ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5)|
-*   DC-Backup Schaltmodul (bei Betrieb mit Solar + Netzteil):  [Amazon](https://www.amazon.de/dp/B07B4D73K9?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)|
+*   Kabel:  [Amazon](https://www.amazon.de/dp/B07DK2S1XG?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)
+*   Verteilerdosen:  [Amazon](https://www.amazon.de/dp/B09D3XP1Z1?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3&th=1)
+*   Solarmodul inkl. Akku:  [Amazon](https://www.amazon.de/dp/B09D3XP1Z1?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3&th=1)
+*   12V-Netzteil für Betrieb ohne Solar:  [Amazon](https://www.amazon.de/dp/B07GFFG1BQ?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5)
+*   DC-Backup Schaltmodul (bei Betrieb mit Solar + Netzteil):  [Amazon](https://www.amazon.de/dp/B07B4D73K9?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)
 *   Dichtungstreifen für Motorgehäuse: [Amazon](https://www.amazon.de/dp/B0CWNCHX7T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)
 
 ---
