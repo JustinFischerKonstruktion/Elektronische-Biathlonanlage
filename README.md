@@ -190,7 +190,8 @@ Hier könnt ihr eine Liste der letzten Ergebnisse abfragen. Da die Übertragung 
 
 Das Netzwerk besteht aus einem Master und bis zu 20 Slaves (bedingt durch die ESP-NOW Einschränkung). Die Anlagen fungieren als Slaves, der Master als eigenständige Zentrale. Folgende Variablen werden intern für Befehle und Daten genutzt:
 
-*   `hits`: Anzahl der Treffer  
+*   `hits`: Anzahl der Treffer
+*   `position`: Position des Treffers 1-5 6 für Reset der Anzeige.
 *   `Anlage`: Nummer der sendenden Anlage  
 *   `reset`: 0-n (Nummer der zu ziehenden Anlage; 0 = alle)  
 *   `target`: 0-n (Wechsel in den Target-Modus; 0 = alle)  
