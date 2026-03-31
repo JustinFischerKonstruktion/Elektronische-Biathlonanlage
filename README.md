@@ -116,7 +116,7 @@ Der Master verfügt über folgende Anbauteile:
 | Selbstschneidende Schrauben | 4| [Amazon](https://www.reichelt.de/de/de/shop/produkt/snap-action-mikroschalter_1x_um_rollenhebel-191380)|
 | Einschmelzmutter M3 | 4 | [Amazon](https://www.amazon.de/dp/B0CRHMB248?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4)|
 | Wasserdichte Kabeldurchführungen | 8 | [Amazon](https://www.amazon.de/dp/B0CXPSG55G?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)|
-| Radialwellendichtring (optional) | 1 | [Amazon](https://www.amazon.de/dp/B0CXPSG55G?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)|
+| Radialwellendichtring (optional) | (1) | [Amazon](https://www.amazon.de/dp/B0CXPSG55G?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)|
 
 #### Stückliste des Masters:
 
