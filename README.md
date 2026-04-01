@@ -3,13 +3,13 @@
 Das Projekt **"Elektronische Biathlonanlage"** ist ein Umbau für Luftgewehr-Biathlonanlagen. Dieser sorgt dafür, dass die Scheiben nach 5 Treffern oder nach einer eingestellten Zeit ohne Treffer automatisch "gezogen" werden. Zur Datenerfassung werden die einzelnen Treffer zusammen mit der Position innerhalb eines **ESP-NOW Netzwerkes** versendet.    
 
 Das System bringt einige Vorteile mit sich, durch das Fehlen von den klassischen Seilen der Biathlonanlagen ist kein Auf- und Abwickeln im Training mehr nötig, einfach Strom einschalten und lostrainieren!  
-Auch die Gefahr dass sich die Seile verknoten oder spannen, wodurch das Fallen der Scheiben verhindert wird, sinkt deutlich. Durch das automatische "ziehen" der Anlagen ist ein reibungsloser Ablauf des Trainings möglich. Keiner kann vergessen die Scheibe zu ziehen und es kann kein "unvollständiges ziehen" geben. Durch das offene System können Trainingsdaten erfasst werden, hier ist für die Zukunft eine Weiterentwicklung mit einer Laufzeitmessung geplant (siehe Zukunftsvision). Durch die zerstörungsfreie Anbringung der 3D-Druckteile geht die Anlage nicht kaputt, die Garantie des Anlagenherstellers wird also nicht verletzt. Die Platine kann sowohl an der Anlage direkt als auch am Stand angebracht werden, somit kann die Anlage flexibel an verschiedenen Standorten eingesetzt werden. Das Wasserabweisende und größtenteils auch Wasserfeste Design ist auf den Außeneinsatz angepasst.
+Auch die Gefahr dass sich die Seile verknoten oder spannen, wodurch das Fallen der Scheiben verhindert wird, sinkt deutlich. Durch das automatische "ziehen" der Anlagen ist ein reibungsloser Ablauf des Trainings möglich. Keiner kann vergessen die Scheibe zu ziehen und es kann kein "unvollständiges ziehen" geben. Durch das offene System können Trainingsdaten erfasst werden, hier ist für die Zukunft eine Weiterentwicklung mit einer Laufzeitmessung geplant (siehe Zukunftsvision). Durch die zerstörungsfreie Anbringung der 3D-Druckteile geht die Anlage nicht kaputt, die Garantie des Anlagenherstellers wird also nicht verletzt. Die Platine kann sowohl an der Anlage direkt als auch am Stand angebracht werden, somit kann die Anlage flexibel an verschiedenen Standorten eingesetzt werden. Das wasserabweisende und größtenteils auch wasserfeste Design ist auf den Außeneinsatz angepasst.
 
 Der Schützenverein Wolfartsweiler (https://www.sv-wolfartsweiler.de) hat seit über einem Jahr 8 umgebaute Anlagen im Betrieb. Pro Anlage kostete uns der Umbau ca. 210€. Pro Anlage kann man mit ca. 2 Arbeitsstunden für die Installation rechnen, zusätzlich zu der Installation von Kabeln im Schießstand. Außerdem testet der Schützenverein aktuell einen Prototypen zur autonomen Laufzeiterfassung und Laufzeitauswertung.  
 
 Mit dem Wettbewerb NMH Makes Heroes (https://nmh-makes-heroes.nmh.de) unterstütze mich die Firma NMH (https://www.nmh.de) mit einer Fördersumme und technischer Beratung. Während der kurzen Wettbewerbszeit (ca. 6 Wochen) entstand aus einem Prototypen ein fertiges, einsatzfähiges System welches ich bei allen 8 Anlagen installieren konnte. Vielen Dank an dieser Stelle an NMH!  
 
-Wenn Sie mein Projekt interressiert und Sie sich für die Zukunft des Projektes interrisieren, können Sie sich gerne die Zukunftsvision anschauen, hier werden mögliche Weiterentwicklungen aufgezeigt. Wenn Sie mich unterstützen wollen, können Sie das gerne über das Github Sponsorprogramm machen.
+Wenn Sie mein Projekt interressiert und Sie sich für die Zukunft des Projektes interrisieren, können Sie sich gerne die Zukunftsvision anschauen, hier werden mögliche Weiterentwicklungen aufgezeigt. Wenn Sie mich unterstützen wollen, können Sie das gerne über das Github Sponsorprogramm machen. Sollten Sie Anregungen, Fehler oder Wünsche haben könnt ihr gerne hier Issues starten oder einfach eine Diskusion starten. Auch auf Instagram könnt ihr gerne Kontakt zu mir Aufnehmen. https://www.instagram.com/justin_fischer_konstruktion/
 
 
 ## Hardware  
@@ -39,7 +39,7 @@ Die 3D-gedruckten Komponenten werden zerstörungsfrei an den bestehenden Anlagen
 *   Scheibe:
 *   Adapter Platine zu Gehäuse:
 
-Zur Einhaltung der Schießstandrichtlinien wurde eine Verkleidung aus Blech an dem Motorhalter angebracht. Dieses wurde bei Blexon bestellt. Die entsprechende **STEP-Datei des Blechs** findet ihr ebenfalls hier bei GitHub. 
+Zur Einhaltung der Schießstandrichtlinien wurde eine Verkleidung aus Blech an dem Motorhalter angebracht. Dieses wurde bei Blexon bestellt. Die entsprechende **STEP-Datei des Blechs** findet ihr ebenfalls hier bei GitHub. Wir haben ein 2mm Edelstahlblech verwendet um den Schießstandrichtlinien gerecht zu werden und um Rost und Abnutzung vorzuubeugen.
 
 **Blexon Link:** https://blexon.com
 
@@ -103,7 +103,7 @@ Der Master verfügt über folgende Anbauteile:
 | Edelstahlbleche | 1 |
 | ESP32 D1 Mini | 1 | [Amazon](https://www.amazon.de/AZDelivery-Bluetooth-Entwicklungsboard-Anschluss-kompatibel/dp/B0DHY5C3Q3/ref=sr_1_1_pp?__mk_de_DE=ÅMÅŽÕÑ&crid=3G27NZ7NFXGJA&dib=eyJ2IjoiMSJ9.fSPDNIu22e7D0m9a5o1wA5lt-69fzrOzSSVbpjepEo7NE6N-GI7q-aMGJPGA5-4RT4leLSNRjCEQzlV9Za3PcW-csD_PGM41K-H7Tz-Ijfe2TKqcQzuc5-hdEvgfumyhFzzk39CJi3T8j0VnBtao0r1axcT8jCYRd9_Q6RsGaSmAugo5oenjCcaT94MzEGL7d_QfhLijRroj1i-4aia8rtOEyGlhY2i8jQylf0_xV5suC4OfYcDTnZCUXsgoXn7OYk8WrPmoR9cE1aRhx2buSXOCyckIRECHaAwrrO_GDV4.ZxecHkuZATFtUk2H4oQdUl-2A3XOx3sczMAwzpoFosw&dib_tag=se&keywords=esp32%2Bd1%2Bmini&qid=1774862687&sprefix=esp32%2Bd1%2Bmini%2B%2Caps%2C105&sr=8-1&th=1) |
 | Step Down Converter | 1 | [Amazon](https://www.amazon.de/dp/B0B92ZDK6T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)|
-| 12V DC Motor | 1 | [Amazon](https://www.amazon.de/dp/B0B92ZDK6T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)|
+| 12V DC Motor | 1 | [Amazon]([https://www.amazon.de/dp/B0B92ZDK6T?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1](https://www.amazon.de/dp/B0D9JTQWVB?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3&th=1))|
 | Platine (optional) | (1) | siehe unten|
 | Gehäuse für Platine | (1) | [Amazon](https://www.amazon.de/dp/B0747RGBFF?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3)|
 | Endschalter für Motor | 5 | [Amazon](https://www.amazon.de/dp/B0DX27MVWB?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1)|
@@ -113,10 +113,10 @@ Der Master verfügt über folgende Anbauteile:
 | Schrauben M3x8 | 8 | [Amazon](https://www.amazon.de/dp/B073ZY19VS?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_12&th=1)|
 | Schrauben M2x10 | 2 | [Amazon](https://www.amazon.de/dp/B015A3ISUA?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_14)|
 | Schrauben M5x10 | 2 | [Amazon](https://www.amazon.de/dp/B015A3ISUA?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_14)|
-| Selbstschneidende Schrauben | 4| [Amazon](https://www.reichelt.de/de/de/shop/produkt/snap-action-mikroschalter_1x_um_rollenhebel-191380)|
+| Selbstschneidende Schrauben | 4| [Amazon](https://www.amazon.de/dp/B0D9JTQWVB?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3&th=1)|
 | Einschmelzmutter M3 | 4 | [Amazon](https://www.amazon.de/dp/B0CRHMB248?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_4)|
 | Wasserdichte Kabeldurchführungen | 8 | [Amazon](https://www.amazon.de/dp/B0CXPSG55G?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)|
-| Radialwellendichtring (optional) | (1) | [Amazon](https://www.amazon.de/dp/B0CXPSG55G?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)|
+| Radialwellendichtring (optional) | (1) | [Amazon](https://www.amazon.de/dp/B0DVJ32JPS?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_2&th=1)|
 
 #### Stückliste des Masters:
 
@@ -150,7 +150,7 @@ Bei Inbetriebnahme müsst ihr die MAC-Adresse eures Masters herausfinden und not
 
 ### Handy App
 
-Hier auf github findet ihr im Ordner Software die Biathlonapp sowohl als apk zum installieren auf Android Handys, als auch die aia datei zum öffnen in App Inventor.  
+Hier auf github findet ihr im Ordner Software die Biathlonapp sowohl als apk zum installieren auf Android Handys, als auch die aia datei zum öffnen in App Inventor für die Anpassung an eure Bedürfnisse. Hierfür braucht ihr einen Account beim MIT App Inventor.  
 App Inventor: https://appinventor.mit.edu  
 
 <p align="center">
@@ -188,7 +188,8 @@ Hier könnt ihr eine Liste der letzten Ergebnisse abfragen. Da die Übertragung 
   <em style="color: grey;">Abbildung 5: Netzwerkaufbau (erstellt mit Inkscape)</em>
 </p>
 
-Das Netzwerk besteht aus einem Master und bis zu 20 Slaves (bedingt durch die ESP-NOW Einschränkung). Die Anlagen fungieren als Slaves, der Master als eigenständige Zentrale. Folgende Variablen werden intern für Befehle und Daten genutzt:
+Das Netzwerk besteht aus einem Master und bis zu 20 Slaves (bedingt durch die ESP-NOW Einschränkung). Die Anlagen fungieren als Slaves, der Master als eigenständige Zentrale. Wir haben unseren Master aktuell in der Nähe der Schützen platziert der Abstand zu den Anlagen beträgt 10m. Auf diese Distanz haben wir die ANlagen getestet und bisher keine Probleme Festgestellt.  
+Folgende Variablen werden intern für Befehle und Daten genutzt:
 
 *   `hits`: Anzahl der Treffer
 *   `position`: Position des Treffers 1-5 6 für Reset der Anzeige.
