@@ -216,4 +216,12 @@ Video das die alktuellen Probleme von Seilzuganlagen aufzeigt:
  
 
 
-*Hier folgen Bilder und Videos der Anlage.*
+*Hier folgen Bilder und Videos der Anlage.*  
+
+## Haftungsausschluss (Disclaimer)
+
+**Die Nutzung dieser Anleitung, der Software und der Hardware-Designs erfolgt auf eigene Gefahr.**
+
+* **Keine Garantie:** Dieses Projekt wird "wie besehen" (as-is) zur Verfügung gestellt. Ich übernehme keine Garantie für die Funktion, Vollständigkeit oder Richtigkeit der bereitgestellten Informationen.
+* **Haftungsausschluss:** Ich hafte nicht für Schäden an Hardware (z. B. Kurzschlüsse, defekte Motoren), Verletzungen oder sonstige Folgeschäden, die durch den Nachbau oder Betrieb dieser Anlage entstehen.
+* **Eigenverantwortung:** Der Nutzer ist selbst dafür verantwortlich, dass der Umbau den geltenden Sicherheitsregeln und Schießstandrichtlinien entspricht.
