@@ -49,9 +49,9 @@ Zur Einhaltung der Schießstandrichtlinien wurde eine Verkleidung aus Blech an d
 Zur Verkabelung der Anlage wurde eine selbst entworfene Platine angefertigt.
 
 <p align="center">
-  <img width="1073" height="567" alt="Verkabelung" src="https://github.com/user-attachments/assets/d1e27411-412c-41c5-96f0-8fc841993d70" />
+  <img width="1000" height="1589" alt="Verkabelung_Steckplatine" src="https://github.com/user-attachments/assets/fe40b8bf-6f43-41b8-a28f-9342cb104fb9" />
   <br>
-  <em style="color: grey;">Abbildung 1: Schaltlogik (erstellt mit Inkscape)</em>
+  <em style="color: grey;">Abbildung 1: Schaltlogik (erstellt mit Fritzing)</em>
 </p>
 
 ### Überblick der Verkabelung:
