@@ -51,7 +51,7 @@ Zur Verkabelung der Anlage wurde eine selbst entworfene Platine angefertigt.
 <p align="center">
   <img width="1000" height="1589" alt="Verkabelung_Steckplatine" src="https://github.com/user-attachments/assets/fe40b8bf-6f43-41b8-a28f-9342cb104fb9" />
   <br>
-  <em style="color: grey;">Abbildung 1: Schaltlogik (erstellt mit Fritzing)</em>
+  <em style="color: grey;">Abbildung 1: Schaltlogik (unmaßstäblich, erstellt mit Fritzing)</em>
 </p>
 
 ### Überblick der Verkabelung:
