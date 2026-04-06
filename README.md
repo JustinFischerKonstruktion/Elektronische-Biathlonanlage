@@ -44,7 +44,7 @@ Zur Einhaltung der Schießstandrichtlinien wurde eine Verkleidung aus Blech an d
 
 ---
 
-## Hardware & Verkabelung
+## Verkabelung
 
 Zur Verkabelung der Anlage wurde eine selbst entworfene Platine angefertigt.
 
