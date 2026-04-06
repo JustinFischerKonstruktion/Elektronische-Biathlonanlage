@@ -49,7 +49,7 @@ Zur Einhaltung der Schießstandrichtlinien wurde eine Verkleidung aus Blech an d
 Zur Verkabelung der Anlage wurde eine selbst entworfene Platine angefertigt.
 
 <p align="center">
-  <img width="1000" height="1589" alt="Verkabelung_Steckplatine" src="https://github.com/user-attachments/assets/fe40b8bf-6f43-41b8-a28f-9342cb104fb9" />
+  <img width="1000" height="1589" alt="Verkabelung_Steckplatine" src="https://github.com/user-attachments/assets/170bd708-9561-46b8-9950-8098008c12ae" />
   <br>
   <em style="color: grey;">Abbildung 1: Schaltlogik (unmaßstäblich, erstellt mit Fritzing)</em>
 </p>
@@ -109,8 +109,9 @@ Der Master verfügt über folgende Anbauteile:
 | Endschalter für Klappen | 1 | [Reichelt](https://www.reichelt.de/de/de/shop/produkt/snap-action-mikroschalter_1x_um_rollenhebel-191380) |
 | Kabel (Stromversorgung) | 1 | [Amazon](https://www.amazon.de/dp/B07DPND6NG) |
 | Kugellager | 1 | [Amazon](https://www.amazon.de/dp/B0CL4ZN6BV) |
-| Schrauben M3x8 | 8 | [Amazon](https://www.amazon.de/dp/B073ZY19VS) |
 | Schrauben M2x10 | 2 | [Amazon](https://www.amazon.de/dp/B015A3ISUA) |
+| Schrauben M2x12 | 10 | [Amazon](https://www.amazon.de/dp/B0DMSP42ZG?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6) |
+| Schrauben M3x8 | 9 | [Amazon](https://www.amazon.de/dp/B073ZY19VS) |
 | Schrauben M5x10 | 2 | [Amazon](https://www.amazon.de/dp/B015A3ISUA) |
 | Selbstschneidende Schrauben | 4 | [Amazon](https://www.amazon.de/dp/B0D9JTQWVB) |
 | Einschmelzmutter M3 | 4 | [Amazon](https://www.amazon.de/dp/B0CRHMB248) |
