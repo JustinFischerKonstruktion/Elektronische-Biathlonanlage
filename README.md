@@ -209,11 +209,21 @@ Video, das die aktuellen Probleme von Seilzuganlagen aufzeigt:
   <a href="https://youtu.be/Kdan_EM31K0">
     <img src="https://github.com/user-attachments/assets/f8575da7-089a-447b-b70b-edb5b22d0004" width="400" alt="Video Thumbnail">
     <br>
-    ▶️ <b>Video: Probleme der aktuellen Seilzuganlagen</b>
+  <b>Video: Probleme der aktuellen Seilzuganlagen</b>
   </a>
 </p>
+<img src="https://github.com/user-attachments/assets/0c14c4b4-c107-462a-aca5-a7d12a3ddcb7" width="400">
+<img src="https://github.com/user-attachments/assets/c909ff09-8767-4794-b4bb-1c864c927277" width="400">
+<img src="https://github.com/user-attachments/assets/10c0255a-439f-4142-9c50-8d826d887a67" width="400">
+<img src="https://github.com/user-attachments/assets/31de276d-30ea-4a18-8976-fa7888015f8f" width="400">
+<img src="https://github.com/user-attachments/assets/fc2ac1d7-bee0-4d05-aaaf-0a5aeb2df61d" width="400">
+<img src="https://github.com/user-attachments/assets/d71a1f6d-0343-4de1-ba15-a3c1aafdb4f2" width="400">
+<img src="https://github.com/user-attachments/assets/648aee1d-6b51-4e1e-a3e6-d2a2dfa7e547" width="400">
+<img src="https://github.com/user-attachments/assets/3031ae92-63bf-4ff2-8a93-eed38afb3ca9" width="400">
+<img src="https://github.com/user-attachments/assets/ce45db39-87ec-4b92-bc14-da7535b7ba67" width="400">
+<img src="https://github.com/user-attachments/assets/1c8d085c-5fb7-4f58-8baa-5e3210d04d6f" width="400">
+<img src="https://github.com/user-attachments/assets/944a05ce-a78e-451c-93ec-82c05614c5a3" width="400">
 
-*Hier folgen Bilder und Videos der Anlage.*
 
 ## Haftungsausschluss (Disclaimer)
 
