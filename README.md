@@ -214,6 +214,12 @@ Video, das die aktuellen Probleme von Seilzuganlagen aufzeigt:
     <br>
   <b>Video: Probleme der aktuellen Seilzuganlagen</b>
   </a>
+<p align="center">
+  <a href="https://youtu.be/Kdan_EM31K0](https://youtu.be/JK2AczdJDU0">
+    <img width="472" height="201" alt="image" src="https://github.com/user-attachments/assets/611cc390-7a80-42c1-aafe-2e4d20b4dcc0" />
+    <br>
+  <b>Video: Trailer Projekt</b>
+  </a>
 </p>
 <img src="https://github.com/user-attachments/assets/0c14c4b4-c107-462a-aca5-a7d12a3ddcb7" width="400">
 <img src="https://github.com/user-attachments/assets/c909ff09-8767-4794-b4bb-1c864c927277" width="400">
