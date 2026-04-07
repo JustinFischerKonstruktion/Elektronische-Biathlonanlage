@@ -111,10 +111,12 @@ Der Master verfügt über folgende Anbauteile:
 | Kugellager | 1 | [Amazon](https://www.amazon.de/dp/B0CL4ZN6BV) |
 | Schrauben M2x10 | 2 | [Amazon](https://www.amazon.de/dp/B015A3ISUA) |
 | Schrauben M2x12 | 10 | [Amazon](https://www.amazon.de/dp/B0DMSP42ZG?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_6) |
-| Schrauben M3x8 | 9 | [Amazon](https://www.amazon.de/dp/B073ZY19VS) |
+| Schrauben M3x8 | 12 | [Amazon](https://www.amazon.de/dp/B073ZY19VS) |
+| Schrauben M3x25 | 2 | [Amazon](https://www.amazon.de/dp/B0DHKQNZ2C?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_5&th=1) |
 | Schrauben M5x10 | 2 | [Amazon](https://www.amazon.de/dp/B015A3ISUA) |
 | Selbstschneidende Schrauben | 4 | [Amazon](https://www.amazon.de/dp/B0D9JTQWVB) |
-| Einschmelzmutter M3 | 4 | [Amazon](https://www.amazon.de/dp/B0CRHMB248) |
+| Einschmelzmutter M3 | 4 (8 für Hora) | [Amazon](https://www.amazon.de/dp/B0CRHMB248) |
+| Mutter M3 | 2 (6 für Rika) | bei Schrauben dabei |
 | Kabeldurchführungen | 8 | [Amazon](https://www.amazon.de/dp/B0CXPSG55G) |
 | Radialwellendichtring (opt.) | (1) | [Amazon](https://www.amazon.de/dp/B0DVJ32JPS) |
 
