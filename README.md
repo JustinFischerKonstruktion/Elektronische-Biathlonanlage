@@ -68,7 +68,7 @@ Die Endschalter der Klappen werden über die **NO-Anschlüsse** an folgende Pins
 * Klappe 4: **Pin 18**
 * Klappe 5: **Pin 19**
 
-**Meine Platine bei OSHWLab:** (Link zu OSHWLAB)
+**Meine Platine bei OSHWLab:** https://oshwlab.com/justin.fischer.konstruktion/project_apwkcymk
 
 ---
 
