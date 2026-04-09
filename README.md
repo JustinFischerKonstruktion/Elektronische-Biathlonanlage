@@ -21,22 +21,21 @@ Die 3D-gedruckten Komponenten werden zerstörungsfrei an den bestehenden Anlagen
 *(STEP-Dateien findet ihr hier auf GitHub)*
 
 **Hora:**
-* Gesamte Anlage:
-* Motorhalter:
-* Endschalterhalter:
-* Halter:
-* Halter mit Kabel:
+* Gesamte Anlage: https://makerworld.com/de/models/2599343-umbau-hora-anlage-gesamt#profileId-2868269
+* Motorhalter: https://makerworld.com/de/models/2634566-motorgehause-hora#profileId-2909867
+* Endschalterhalter: https://makerworld.com/de/models/2634540-endschalterhalterung-hora#profileId-2909835
+* Halter / Halter mit Kabel: https://makerworld.com/de/models/2634652-platinengehausehalter-hora#profileId-2909964
 
 **Rika:**
-* Gesamte Anlage:
-* Motorhalter:
-* Endschalterhalter:
-* Platinenhalter:
+* Gesamte Anlage: https://makerworld.com/de/models/2634761-umbau-rika-anlage-gesamt#profileId-2910064
+* Motorhalter: https://makerworld.com/de/models/2634928-motorgehause-rika#profileId-2910264
+* Endschalterhalter: https://makerworld.com/de/models/2634916-endschalterhalterung-rika#profileId-2910247
+* Platinenhalter:https://makerworld.com/de/models/2634963-platinenhalterung-rika#profileId-2910308
 
 **Zubehör für beide Typen:**
-* Platinenhalter außen:
-* Scheibe:
-* Adapter Platine zu Gehäuse:
+* Platinenhalter außen: https://makerworld.com/de/models/2635003-platinengehaussehalterung-aussen#profileId-2910358
+* Scheibe: https://makerworld.com/de/models/2635039-scheibe#profileId-2910395
+* Adapter Platine zu Gehäuse: 
 
 Zur Einhaltung der Schießstandrichtlinien wurde eine Verkleidung aus Blech an dem Motorhalter angebracht. Diese wurde bei Blexon bestellt. Die entsprechende **STEP-Datei des Blechs** findet ihr ebenfalls hier bei GitHub. Wir haben ein 2 mm Edelstahlblech verwendet, um den Schießstandrichtlinien gerecht zu werden und um Rost und Abnutzung vorzubeugen.
 
