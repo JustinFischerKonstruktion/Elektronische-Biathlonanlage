@@ -35,7 +35,7 @@ Die 3D-gedruckten Komponenten werden zerstörungsfrei an den bestehenden Anlagen
 **Zubehör für beide Typen:**
 * Platinenhalter außen: https://makerworld.com/de/models/2635003-platinengehaussehalterung-aussen#profileId-2910358
 * Scheibe: https://makerworld.com/de/models/2635039-scheibe#profileId-2910395
-* Adapter Platine zu Gehäuse: 
+* Adapter Platine zu Gehäuse: https://makerworld.com/de/models/2635074-adapter-platine#profileId-2910440
 
 Zur Einhaltung der Schießstandrichtlinien wurde eine Verkleidung aus Blech an dem Motorhalter angebracht. Diese wurde bei Blexon bestellt. Die entsprechende **STEP-Datei des Blechs** findet ihr ebenfalls hier bei GitHub. Wir haben ein 2 mm Edelstahlblech verwendet, um den Schießstandrichtlinien gerecht zu werden und um Rost und Abnutzung vorzubeugen.
 
