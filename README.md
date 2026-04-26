@@ -9,7 +9,7 @@ Der Schützenverein Wolfartsweiler ([sv-wolfartsweiler.de](https://www.sv-wolfar
 
 Mit dem Wettbewerb NMH Makes Heroes ([nmh-makes-heroes.nmh.de](https://nmh-makes-heroes.nmh.de)) unterstützte mich die Firma NMH ([nmh.de](https://www.nmh.de)) mit einer Fördersumme und technischer Beratung. Während der kurzen Wettbewerbszeit (ca. 6 Wochen) entstand aus einem Prototypen ein fertiges, einsatzfähiges System, welches ich bei allen 8 Anlagen installieren konnte. Vielen Dank an dieser Stelle an NMH!
 
-Wenn Sie mein Projekt interessiert und Sie sich für die Zukunft des Projektes interessieren, können Sie sich gerne die Zukunftsvision anschauen; hier werden mögliche Weiterentwicklungen aufgezeigt. Wenn Sie mich unterstützen wollen, können Sie das gerne über das GitHub-Sponsorprogramm machen. Sollten Sie Anregungen, Fehler oder Wünsche haben, können Sie hier Issues erstellen oder einfach eine Diskussion starten. Auch auf Instagram können Sie gerne Kontakt zu mir aufnehmen: [@justin_fischer_konstruktion](https://www.instagram.com/justin_fischer_konstruktion/)
+Wenn Sie mein Projekt interessiert und Sie sich für die Zukunft des Projektes interessieren, können Sie sich gerne die Zukunftsvision anschauen; hier werden mögliche Weiterentwicklungen aufgezeigt. Wenn Sie mich unterstützen wollen, können Sie das gerne über gofundme machen: https://gofund.me/d172d4579 . Sollten Sie Anregungen, Fehler oder Wünsche haben, können Sie hier Issues erstellen oder einfach eine Diskussion starten. Auch auf Instagram können Sie gerne Kontakt zu mir aufnehmen: [@justin_fischer_konstruktion](https://www.instagram.com/justin_fischer_konstruktion/)
 
 ## Hardware
 
