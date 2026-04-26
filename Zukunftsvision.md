@@ -44,6 +44,6 @@ Ziel ist eine Plug-and-Play-Lösung, die einfach und schnell installiert werden 
 ### Laufzeiterfassung
 Aktuell arbeite ich zudem an einem Prototypen zur Laufzeiterfassung. Dieser ist momentan über ein einfaches NFC-Zeitnahmesystem umgesetzt, soll aber in naher Zukunft auf Kameratechnik umgestellt werden. Mithilfe von Google Sheets und App Script werden die Daten erfasst, sortiert und für jeden Athleten eine individuelle Übersicht erstellt. Da der erste Prototyp derzeit ausgiebig getestet wird, gibt es hier noch keine konkreten Kostenpläne; die Schätzung für das Gesamtsystem liegt bei ca. 500 €.
 
-Sollten Ihnen diese Ideen gefallen, können Sie mich gerne bei der Umsetzung unterstützen – direkt hier über das GitHub-Sponsorprogramm.
+Sollten Ihnen diese Ideen gefallen, können Sie mich gerne bei der Umsetzung unterstützen. Bei gofundme sammle ich die 800€ für die Weiterentwicklung: https://gofund.me/d172d4579
 
 Vielen Dank für Ihr Interesse und Ihre Unterstützung!
